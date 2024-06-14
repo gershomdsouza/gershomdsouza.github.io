@@ -133,10 +133,11 @@
       <div class="overlay"></div>
       <div class="container">
         <div class="col-md-9">
-          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+          <div class="content section-padding valign">
             <div class="caption">
+              <div class="start-spacer"></div>
               <h2>Hello World! I'm <span class="teal">Gershom Dsouza</span></h2>
-              <h5 style="color:#fff">I am <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
+              <h5 style="color:#fff">I am <span class="typing" style="font-weight: 300; color:white"></span></h5>
               <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
               <h5>
                 <p>
@@ -174,7 +175,7 @@
       <h3 class="page-title white-text teal">About</h3>
       <div class="container flow-text">
         <p>
-          I would like to introduce myself, Gershom Dsouza, a post-graduate Airworthiness Engineer, with a Master's degree from Embry Riddle Aeronautical University, USA, and a Bachelor’s degree in Aerospace Technology at Emirates Aviation University awarded by Coventry University. To enhance my knowledge, I also completed EASA Part 145 training with SMS. My passion for a career in the aviation industry led me to also pursue a Private Pilot License in the US.
+          I would like to introduce myself, Gershom Dsouza, a post-graduate Airworthiness Engineer, with a Master's degree from Embry Riddle Aeronautical University, USA, and a Bachelor’s degree in Aerospace Technology at Emirates Aviation University awarded by Coventry University. To enhance my knowledge, I also completed EASA Part 145 training with SMS and PART CAMO Training. My passion for a career in the aviation industry led me to also pursue a Private Pilot License in the US.
         </p>
         <p>
           I'm applying for a suitable entry-level position. Having worked with Emirates in their Engineering department, I have hands-on experience with handling of aircrafts parts and components from working in their Cabin/IFE Maintenance department, especially in Line Maintenance of wide-body aircrafts like the Boeing 777 and Airbus A380 family of aircraft. Additionally, I have worked in the EK Warehouse & Logistics department, ensuring that tools & material/logistics demands of maintenance customers are fulfilled safely and efficiently and in accordance with standard operating procedures 
@@ -434,10 +435,10 @@
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script type="text/javascript">
     var typed = new Typed('.typing',{
-      strings: ["a Private Pilot", "an Airworthiness Engineer", "an Aerospace Engineer", "a Problem solver", "a Mechanic"],
+      strings: ["a Private Pilot.", "an Airworthiness Engineer.", "a Problem solver.", "a Mechanic.", "using Right Rudder.", "checking the METAR.", "filing a flight plan."],
       loop: true,
-      typeSpeed: 120,
-      backSpeed: 90
+      typeSpeed: 30,
+      // backSpeed: 40
     });
   </script>
 
@@ -450,7 +451,7 @@
   <script>
     // Materialize - Initializers
     $(document).ready(function () {
-      $(".scrollspy").scrollSpy()
+      $(".scrollspy").scrollSpy();
       // Initialize collapse button
       $(".button-collapse").sideNav({
         menuWidth: 190, // Default is 240
