@@ -703,3 +703,7 @@ small {
 	margin-top: 0;
 	padding-top: 64px;
 }
+
+.start-spacer {
+	height: 64px;
+}
